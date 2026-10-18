@@ -186,15 +186,17 @@ DUCK_RUN=microduck_sitstand bash /root/duck_next.sh 5-record   # ⑤ 录一段�
 
 ---
 
-<figure>
-  <video controls preload="metadata" playsinline width="100%">
-    <source src="./images/sitstand-flag-check.mp4" type="video/mp4">
-    你的浏览器不支持 video 标签，<a href="./images/sitstand-flag-check.mp4">点此下载视频</a>。
-  </video>
-  <figcaption><strong>坐↔站回放 · 20 秒</strong><br>
-  训练产出的策略在仿真里连续运行。躯干高度在站姿（≈0.117 m）与坐姿（≈0.062 m）之间往复，
-  落差约 55 mm —— 这是「技能真实存在」最直接的证据。</figcaption>
-</figure>
+### 回放视频：坐 ↔ 站连续 20 秒
+
+**两种姿态长这样**（从回放里截的两帧，左看右看都是同一个鸭子）：
+
+![站姿与坐姿对照](./images/sitstand-stand-sit.png)
+
+**▶ 视频**：[点这里播放 / 下载 sitstand-flag-check.mp4](./images/sitstand-flag-check.mp4)（20 秒，717 KB）
+
+> 说明：GitHub 的 README 渲染器会把 `<video>` 标签过滤掉，所以视频没法内嵌在页面里自动播放——点上面的链接会在 GitHub 上直接打开一个可播放的视频页（点页面中间的播放按钮即可）。本地打开仓库克隆版则直接是文件。
+
+视频里策略在仿真里连续运行，躯干高度在站姿（≈0.117 m）与坐姿（≈0.062 m）之间往复，落差约 55 mm —— 这是「技能真实存在」最直接的证据。
 
 ## 写在最后
 
