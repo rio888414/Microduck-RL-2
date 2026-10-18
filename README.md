@@ -9,7 +9,7 @@ Microduck · 强化学习实战 · 第二课
 ---
 
 ## 一、这次要训什么
-
+![image](https://github.com/rio888414/Microduck-RL-2/blob/main/sitstand.gif)
 | 项目 | 内容 |
 | --- | --- |
 | 任务 | `Mjlab-SitStand-Flat-MicroDuck` |
